@@ -139,7 +139,7 @@ function App() {
         <h1>School Database Management</h1>
 
         {/* Initialize Database Button */}
-        <button onClick={initializeDatabase}>Initialize Database</button>
+        <button onClick={initializeDatabase}>Initialize/Reset Database</button>
         {dbMessage && <p>{dbMessage}</p>}
 
         {/* Students Section */}
