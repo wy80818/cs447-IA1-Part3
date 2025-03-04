@@ -12,5 +12,5 @@
 3. You can also update them by matching their ID, and changing their name and credits with `Update Student`, as well as removing them by specifying their ID.
 4. This can also be done with any other entity.
 5. After doing students, you should add the instructors afterwards.
-6. After adding appropriate students/instructors, add courses with an EXISTING instrucotr ID
-7. Similarly to courses, enrollments require EXISTING student and course IDs.
+6. After adding appropriate students/instructors, add courses with an **existing** instructor ID
+7. Similarly to courses, enrollments require **existing** student and course IDs.
