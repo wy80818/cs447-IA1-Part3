@@ -137,7 +137,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>School Database Management</h1>
-
+        
         {/* Initialize Database Button */}
         <button onClick={initializeDatabase}>Initialize/Reset Database</button>
         {dbMessage && <p>{dbMessage}</p>}

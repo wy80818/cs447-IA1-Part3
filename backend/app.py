@@ -339,7 +339,7 @@ def remove_enrollment():
         return jsonify({"error": str(e)}), 500
 
 
-# Get students, instructors, courses, and enrollments (same as previously)
+# Get students
 @app.route('/get_students', methods=['GET'])
 def get_students():
     try:
@@ -355,7 +355,7 @@ def get_students():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
+# Get instructors
 @app.route('/get_instructors', methods=['GET'])
 def get_instructors():
     try:
@@ -371,7 +371,7 @@ def get_instructors():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
+# Get courses
 @app.route('/get_courses', methods=['GET'])
 def get_courses():
     try:
@@ -387,7 +387,7 @@ def get_courses():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
+# Get enrollments
 @app.route('/get_enrollments', methods=['GET'])
 def get_enrollments():
     try:
